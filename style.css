@@ -1,0 +1,593 @@
+/*default css*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+	background-color: rgba(255, 255, 0, .2);
+	/*width: 1510px;*/
+	margin: 0 auto;
+}
+
+input{
+	outline: 0;
+}
+
+#mainContener{
+	width: 100%;
+}
+
+.header >h1{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	color: #FF4500;
+	font-weight: 500;
+}
+
+#mainform{
+	border: 0.01rem solid black;
+	margin: 20px 100px 40px 100px;
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),
+			 	0 1px 10px 0 rgba(0,0,0,0.12), 
+			 	0 2px 4px -1px rgba(0,0,0,0.3);
+	box-sizing: border-box;
+	background-color: white;
+}
+
+#mainform h3{
+	font-size: 20px;
+	font-weight: 500;
+	padding: 40px 0 60px 0;
+	text-align: center;
+}
+
+
+/**********************************************************************************/
+
+.personal{
+	width: 33%;
+	float: left;
+	padding-bottom: 120px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.personal strong{
+	font-size: .8rem;
+	text-align: left;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.personal label{
+	font-size: .8rem;  
+}
+
+.profilefor{
+	width: 200px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin: 20px 20px;
+}
+
+.inputone{
+	width: 200px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin: 20px 0 20px 70px;
+	font-size: .6rem;
+}
+
+.gender{
+	width: 80px;
+	margin-left:90px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.day{
+	width: 70px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	margin-left: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: .8rem;
+}
+
+.month{
+	width: 70px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	font-size: .8rem;
+}
+
+.year{
+	width: 60px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+
+.commu{
+	width: 200px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 70px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: .6rem;
+}
+
+.gotra{
+	width: 200px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin: 20px 0 20px 100px;
+	font-size: .6rem;
+}
+
+.Manglik{
+	width: 80px;
+	margin-left:70px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.height{
+	width: 80px;
+	margin-left: 90px;
+	margin-right: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+
+.heightone{
+	width: 80px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+
+.tone{
+	width: 200px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin: 20px 20px 0 70px;
+}
+
+
+/**************************************************************************************/
+.professional{
+	width: 33%;
+	float: left;
+	padding-bottom: 180px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.professional strong{
+	font-size: .8rem;
+	text-align: left;
+	padding-right: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.stateone{
+	width: 200px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.textbox{
+	width: 200px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 82px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.textboxone{
+	width: 200px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 62px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.degree{
+	width: 200px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+.degreedetails{
+	width: 200px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.jobtype{
+	width: 200px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*margin-left: 10px;*/
+}
+
+.companyname{
+	width: 200px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.pojison{
+	width: 200px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 45px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.income{
+	width: 200px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+
+/*************************************************************************************/
+.family{
+	width: 33%;
+	float: left;
+	padding-bottom: 30px; 
+	border-bottom: 1px solid black;	
+}
+
+.family strong{
+	font-size: .8rem;
+	text-align: left;
+	padding-right: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.prentname{
+	width: 160px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 70px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.fatherjob{
+	width: 160px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 35px;
+}
+
+.mname{
+	width: 160px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.familymeber{
+	width: 160px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.sister{
+	margin-left: 110px
+}
+
+.address{
+	width: 160px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.city{
+	margin-left: 130px;
+}
+
+.pincode{
+	margin-left: 100px;
+}
+
+.statetwo{
+	width: 160px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 120px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.phone{
+	width: 160px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.alternatephone{
+	width: 160px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	/*margin-left: 10px;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+/***********************************************************************************/
+
+.button{
+	margin: 40px 550px 50px 600px; 
+	width: 100px;
+	padding:10px 0;
+	border: 0;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #008000;
+	color: white;
+	font-size: 1rem;
+	font-weight: 700;  
+	cursor: pointer;
+}
+
+/***************************************************************************************/
+/*get_data.php css*/
+
+.profile{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px; 
+}
+
+.gendercomfrom{
+	margin-left: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.dobday{
+	width: 50px;
+	margin-left: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.dobm{
+	width: 80px;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.doby{
+	width: 60px;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.skin{
+	width: 150px;
+	margin-left: 100px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.statepro{
+	width: 150px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.study{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.typejob{
+	/*margin-left: 20px;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.aincome{
+	margin-left: 40px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.statefamily{
+	margin-left: 120px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.buttonone{
+	margin: 40px 50px 50px 500px; 
+	width: 100px;
+	padding:10px 0;
+	border: 0;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #008000;
+	font-size: 1rem;
+	font-weight: 700;  
+	cursor: pointer;
+}
+
+.buttonone a{
+	text-decoration: none;
+	color: white;
+}
+
+.buttontwo{
+	/*margin: 40px 550px 50px 0; */
+	width: 150px;
+	padding:10px 0;
+	border: 0;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #008000;
+	color: white;
+	font-size: 1rem;
+	font-weight: 700;  
+	cursor: pointer;
+}
+
+/**************************************************************************************/
+
+@media only screen and (max-width: 768px){
+
+.header h1{
+	text-align: center;
+}	
+
+.mainform{
+/*	border: 0;
+	margin: 20px 100px 40px 100px;
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),
+			 	0 1px 10px 0 rgba(0,0,0,0.12), 
+			 	0 2px 4px -1px rgba(0,0,0,0.3);
+	box-sizing: border-box;*/
+	/*background-color: rgba(255, 255, 0, .2);*/
+}	
+
+.personal{
+	width: 100%;
+	margin-bottom: 20px;
+	/*background-color: white;*/
+}
+
+.professional{
+	width: 100%;
+	margin-bottom: 20px;
+	/*background-color: white;*/
+}
+
+.family{
+	width: 100%;
+	/*background-color: white;*/
+	/*border-top: 1px solid black*/
+}
+
+.button{
+	/*margin: 40px 550px 50px 600px; */
+	/*float: left;*/
+	width: 100px;
+	padding:10px 0;
+	border: 0;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #008000;
+	color: white;
+	font-size: 1rem;
+	font-weight: 700;  
+	cursor: pointer;
+}
+
+}
