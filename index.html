@@ -308,28 +308,18 @@
 
 <script type="text/javascript">
 	function formValidation() {
-		 // var a = document.getElementById("CreatProfile").value;
 		 var b = document.getElementById("FirstName").value;
 		 var c = document.getElementById("LastName").value;
-		 // var d = document.getElementById("gender").value;
-		 // var e = document.getElementById("day").value;
-		 // var f = document.getElementById("month").value;
-		 // var g = document.getElementById("year").value;
 		 var h = document.getElementById("community").value;
 		 var i = document.getElementById("gotra").value;
-		 // var j = document.getElementById("IsManglik").value;
 		 var k = document.getElementById("feet").value;
 		 var l = document.getElementById("inches").value;
-		 // var m = document.getElementById("tone").value;
-		 // var n = document.getElementById("stateLiving").value;
 		 var o = document.getElementById("proCity").value;
 		 var p = document.getElementById("district").value;
-		 // var q = document.getElementById("Education").value;
 		 var r = document.getElementById("degreDetails").value;
 		 var s = document.getElementById("professional").value;
 		 var t = document.getElementById("companyName").value;
 		 var u = document.getElementById("jobTitle").value;
-		 // var v = document.getElementById("Income").value;
 		 var w = document.getElementById("fatherName").value;
 		 var x = document.getElementById("fatherJob").value;
 		 var y = document.getElementById("mothername").value;
@@ -338,7 +328,6 @@
 		 var zb = document.getElementById("sisterName").value;
 		 var zc = document.getElementById("mainCity").value;
 		 var zd = document.getElementById("pinCode").value;
-		 // var ze = document.getElementById("familyState").value;
 		 var zf = document.getElementById("mainPhone").value;
 		 var zg = document.getElementById("phoneNumber").value
 		
@@ -354,7 +343,7 @@
   			alert("Only alphabets from a-z and A-Z are allowed for FirstName");
     		return false;
   		}else if (b.length<3) {
-  			alert("First Name maximem 5 alphabets");
+  			alert("Please fill correct FirstName");
     		return false;
   		}
 
@@ -368,7 +357,7 @@
   			alert("Only alphabets from a-z and A-Z are allowed for LastName");
     		return false;
   		}else if (c.length<3) {
-  			alert("Last Name maximem 5 alphabets");
+  			alert("Please fill correct LastName");
     		return false;
   		}
 
@@ -380,8 +369,8 @@
   		}else if (regexp1.test(h)) {
   			alert("Only alphabets from a-z and A-Z are allowed for community");
     		return false;
-  		}else if (h.length<4) {
-  			alert("community maximem 5 alphabets");
+  		}else if (h.length<3) {
+  			alert("Please fill correct community");
     		return false;
   		}
 
@@ -395,7 +384,7 @@
   			alert("Only alphabets from a-z and A-Z are allowed for gotra");
     		return false;
   		}else if (i.length<3) {
-  			alert("community maximem 4 alphabets");
+  			alert("Please fill correct gotra");
     		return false;
   		}
 
@@ -421,13 +410,13 @@
 
   		// checking ProfessionalCity box is not empty and value is only alphabets and length is greater then 3
   		if (o == "") {
-   			alert("ProfessionalCity must be filled out");
+   			alert("Professional City must be filled out");
     		return false;
   		}else if (regexp1.test(o)) {
   			alert("Only alphabets from a-z and A-Z are allowed for Professional city");
     		return false;
   		}else if (o.length<3) {
-  			alert("Professionalcity maximem 4 alphabets");
+  			alert("Please fill correct Professional City");
     		return false;
   		}
 
@@ -440,33 +429,33 @@
   			alert("Only alphabets from a-z and A-Z are allowed for district");
     		return false;
   		}else if (p.length<3) {
-  			alert("district maximem 4 alphabets");
+  			alert("Please fill correct district");
     		return false;
   		}
 
 
   		// checking degreDetails box is not empty and value is only alphabets and length is greater then 3
   		if (r == "") {
-   			alert("degreDetails must be filled out");
+   			alert("Degree Details must be filled out");
     		return false;
   		}else if (regexp1.test(r)) {
-  			alert("Only alphabets from a-z and A-Z are allowed for degreDetails");
+  			alert("Only alphabets from a-z and A-Z are allowed for Degree Details");
     		return false;
   		}else if (r.length<3) {
-  			alert("degreDetails maximem 4 alphabets");
+  			alert("Please fill correct Degree Details");
     		return false;
   		}
 
 
   		// checking companyName box is not empty and value is only alphabets and length is greater then 		3
   		if (t == "") {
-   			alert("companyName must be filled out");
+   			alert("Company Name must be filled out");
     		return false;
   		}else if (regexp1.test(t)) {
-  			alert("Only alphabets from a-z and A-Z are allowed for companyName");
+  			alert("Only alphabets from a-z and A-Z are allowed for Company Name");
     		return false;
   		}else if (t.length<3) {
-  			alert("companyName maximem 4 alphabets");
+  			alert("Please fill correct Company Name");
     		return false;
   		}
 
@@ -479,7 +468,7 @@
   			alert("Only alphabets from a-z and A-Z are allowed for WorkingAs");
     		return false;
   		}else if (u.length<3) {
-  			alert("WorkingAs maximem 4 alphabets");
+  			alert("Please fill correct WorkingAs");
     		return false;
   		}
 
@@ -492,7 +481,7 @@
   			alert("Only alphabets from a-z and A-Z are allowed for fatherName");
     		return false;
   		}else if (w.length<3) {
-  			alert("fatherName maximem 4 alphabets");
+  			alert("Please fill correct fatherName");
     		return false;
   		}
 
@@ -505,7 +494,7 @@
   			alert("Only alphabets from a-z and A-Z are allowed for fatherJob");
     		return false;
   		}else if (x.length<3) {
-  			alert("fatherJob maximem 4 alphabets");
+  			alert("Please fill correct fatherJob");
     		return false;
   		}
 
@@ -517,7 +506,7 @@
   			alert("Only alphabets from a-z and A-Z are allowed for mothername");
     		return false;
   		}else if (y.length<3) {
-  			alert("mothername maximem 4 alphabets");
+  			alert("Please fill correct mothername");
     		return false;
   		}
 
@@ -530,7 +519,7 @@
   			alert("Only alphabets from a-z and A-Z are allowed for mothername");
     		return false;
   		}else if (z.length<3) {
-  			alert("mothername maximem 4 alphabets");
+  			alert("Please fill correct motherjob");
     		return false;
   		}
 
@@ -550,13 +539,13 @@
 
   		// checking Familycity box is not empty and value is only alphabets and length is greater then 3 
   		if (zc == "") {
-   			alert("Familycity must be filled out");
+   			alert("Family city must be filled out");
     		return false;
   		}else if (regexp1.test(zc)) {
-  			alert("Only alphabets from a-z and A-Z are allowed for Familycity");
+  			alert("Only alphabets from a-z and A-Z are allowed for Family city");
     		return false;
   		}else if (zc.length<3) {
-  			alert("Familycity maximem 4 alphabets");
+  			alert("Please fill correct Family city");
     		return false;
   		}
 
