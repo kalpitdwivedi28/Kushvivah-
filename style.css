@@ -8,8 +8,6 @@
 body{
 	font-family: sans-serif;
 	background-color: rgba(255, 255, 0, .2);
-	width: 1510px;
-	margin: 0 auto;
 }
 
 input{
@@ -47,6 +45,7 @@ input{
 
 
 /**********************************************************************************/
+	/*Personal Details form css*/
 
 .personal{
 	width: 33%;
@@ -177,6 +176,8 @@ input{
 
 
 /**************************************************************************************/
+  /*Professional Details form css*/
+
 .professional{
 	width: 33%;
 	float: left;
@@ -284,6 +285,8 @@ input{
 
 
 /*************************************************************************************/
+	/*Family Details form css*/
+	
 .family{
 	width: 33%;
 	float: left;
@@ -541,7 +544,7 @@ input{
 
 /**************************************************************************************/
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 360px){
 
 .header h1{
 	text-align: center;
@@ -589,5 +592,19 @@ input{
 	font-weight: 700;  
 	cursor: pointer;
 }
+
+}
+
+/**************************************************************************************/
+@media only screen and (min-width: 360px){
+	
+}
+
+/*******************************************************************************/
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 1280px){
 
 }
