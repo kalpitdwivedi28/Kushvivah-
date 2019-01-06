@@ -4,6 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Kushvivah</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -17,11 +21,11 @@
 <section id="subContener">
 	<div class="formcontener">
 
-	<form id="formUser" onsubmit="return formValidation()" name="userForm" action="get_data.php" method="GET">
+	<form class="form-inline" onsubmit="return formValidation()" name="userForm" action="get_data.php" method="GET">
 		<div id="mainform">
 			<div class="personal">	
 				<h3>Personal Details</h3>
-				<strong>Creating Profile For:</strong>
+				<strong class="strong1">Profile For:</strong>
 				<select name="profile" class="profilefor" id="CreatProfile">
 					<option selected="selected">selected</option>
 					<option value="self">Self</option>
@@ -32,17 +36,17 @@
 					<option value="friend">Friend</option>
 					<option value="relative">Relative</option>
 				</select><br>
-				<strong> First Name:</strong>
+				<strong class="strong1"> First Name:</strong>
 				<input type="txt" value="" placeholder="First Name" class="inputone" name="FirstName" id="FirstName"><br>
-				<strong>Last Name:</strong>
-				<input type="txt" value="" placeholder="Last Name" class="inputone" name="LastName" id="LastName"><br>
-				<strong>Gender:</strong>
-				<select name="gender" class="gender" id="gender">
+				<strong class="strong1">Last Name:</strong>
+				<input type="txt" value="" placeholder="Last Name" class="inputone last" name="LastName" id="LastName"><br>
+				<strong class="strong1">Gender:</strong>
+				<select name="gender" class="gender" id="Gender">
 					<option selected="selected">selected</option>
 					<option value="boy">Male</option>
 					<option value="girl">Female</option>
 				</select><br>
-				<strong>Date Of Birth:</strong>
+				<strong class="strong1">Date Of Birth:</strong>
 				<select name="day" class="day" id="day">
 					<option selected="selected">Day</option>
 					<option value="1">1</option>
@@ -126,21 +130,21 @@
 					<option value="1971">1971</option>
 					<option value="1970">1970</option>
 				</select><br>
-				<strong>Community:</strong>
+				<strong class="strong1">Community:</strong>
 				<input type="txt" name="community" value="" placeholder="Community(kushwaha, maurya, sakya etc)" class="commu" id="community"><br>
-				<strong>Gotra:</strong>
+				<strong class="strong1">Gotra:</strong>
 				<input type="txt" name="gotra" value="" placeholder="gotra" id="gotra" class="gotra"><br>
-				<strong>Is Manglik:</strong>
+				<strong class="strong1">Is Manglik:</strong>
 				<select name="IsManglik" class="Manglik" id="IsManglik">
 					<option selected="selected">selected</option>
 					<option value="no">NO</option>
 					<option value="manglik">Manglik</option>
 					<option value="ansik">Ansik Manglik</option>
 				</select><br>
-				<strong>Height:</strong>
-				<input type="number" name="feet" value="" placeholder="0" class="height" id="feet"><label>Feet</label>
-				<input type="number" name="inches" value="" placeholder="0" class="heightone" id="inches"><label>Inches</label> <br>	
-				<strong>Skin Tone:</strong>
+				<strong class="strong1">Height:</strong>
+				<input type="number" name="feet" value="" placeholder="0" class="height" id="feet"><label class="label">Feet</label>
+				<input type="number" name="inches" value="" placeholder="0" class="heightone" id="inches"><label class="label">Inches</label> <br>	
+				<strong class="strong1">Skin Tone:</strong>
 				<select name="tone" class="tone" id="tone">
 					<option selected="selected">selected</option>
 					<option value="veryFair">Very fair</option>
@@ -152,7 +156,7 @@
 
 			<div class="professional">
 				<h3>Professional Details</h3>
-				<strong>State Living in:</strong>
+				<strong class="strong1">State Living in:</strong>
 				<select name="stateliving" class="stateone" id="stateLiving">
 					<option selected="selected">selected</option>
 					<option value="andhra">Andhra Pradesh</option>
@@ -187,11 +191,11 @@
 					<option value="uttarakhand">Uttarakhand</option>
 					<option value="west">West Bengal</option>
 				</select><br>
-				<strong>City:</strong>
+				<strong class="strong1">City:</strong>
 				<input type="text" name="procity" value="" placeholder="city" class="textbox" id="proCity"><br>
-				<strong>District:</strong>
+				<strong class="strong1">District:</strong>
 				<input type="txt" name="district" value="" placeholder="district" class="textboxone" id="district"><br>
-				<strong>Education Level:</strong>
+				<strong class="strong1">Education Level:</strong>
 				<select name="education" class="degree" id="Education">
 					<option selected="selected">selected</option>
 					<option value="doctorate">Doctorate</option>
@@ -204,9 +208,9 @@
 					<option value="diploma">Diploma</option>
 					<option value="high">High School</option>
 				</select><br>
-				<strong>Degree Details:</strong>
+				<strong class="strong1">Degree Details:</strong>
 				<input type="txt" name="degreDetails" value="" placeholder="degree details" class="degreedetails" id="degreDetails"><br>
-				<strong>Professional Detail:</strong>
+				<strong class="strong1">Professional Detail:</strong>
 				<select name="professional" class="jobtype" id="professional">
 					<option selected="selected">selected</option>
 					<option value="private">Private Company</option>
@@ -215,11 +219,11 @@
 					<option value="self">Business / Self Employee</option>
 					<option value="noworking">Not Working</option>
 				</select><br>
-				<strong>Company Name:</strong>
+				<strong class="strong1">Company Name:</strong>
 				<input type="txt" name="companyName" value="" placeholder="Company name" class="companyname" id="companyName"><br>
-				<strong>Working As:</strong>
+				<strong class="strong1">Working As:</strong>
 				<input type="txt" name="jobtitle" value="" placeholder="working as" class="pojison" id="jobTitle"><br>
-				<strong>Annual Income:</strong>
+				<strong class="strong1">Annual Income:</strong>
 				<select name="income" class="income" id="Income">
 					<option selected="selected">selected</option>
 					<option value="onelakh">Upto INR 1 Lakh</option>
@@ -239,23 +243,23 @@
 
 			<div class="family">
 				<h3>Family Details</h3>
-				<strong>Father Name:</strong>
+				<strong class="strong1">Father Name:</strong>
 				<input type="txt" name="fathername" value="" id="fatherName" placeholder="father name" class="prentname"><br>
-				<strong>Father Occupation:</strong>
+				<strong class="strong1">Father Occupation:</strong>
 				<input type="txt" name="fatherJob" value="" id="fatherJob" placeholder="father job" class="fatherjob"><br>
-				<strong>Mother Name:</strong>
+				<strong class="strong1">Mother Name:</strong>
 				<input type="txt" name="mothername" value="" id="mothername" placeholder="mother name" class="prentname"><br>
-				<strong>Mother Occupation:</strong>
+				<strong class="strong1">Mother Occupation:</strong>
 				<input type="txt" name="motherJob" value="" id="motherJob" placeholder="mother Occupation" class="mname"><br>
-				<strong>Brothers:</strong>
+				<strong class="strong1">Brothers:</strong>
 				<input type="txt" name="brothername" value="" placeholder="number of brother" class="familymeber" id="brotherName"><br>
-				<strong>Sisters:</strong>
+				<strong class="strong1">Sisters:</strong>
 				<input type="txt" name="sistername" value="" id="sisterName" placeholder="number of sister" class="familymeber  sister"><br>
-				<strong>City:</strong>
+				<strong class="strong1">City:</strong>
 				<input type="txt" name="maincity" value="" id="mainCity" placeholder="city name" class="address city"><br>
-				<strong>Pincode:</strong>
+				<strong class="strong1">Pincode:</strong>
 				<input type="number" name="pincode" value="" id="pinCode" placeholder="pincode" class="address pincode"><br>
-				<strong>State:</strong>
+				<strong class="strong1">State:</strong>
 				<select name="familystate" class="statetwo" id="familyState">
 					<option selected="selected">selected</option>
 					<option value="Andhra">Andhra Pradesh</option>
@@ -290,13 +294,13 @@
 					<option value="Uttarakhand">Uttarakhand</option>
 					<option value="West">West Bengal</option>
 				</select><br>
-				<strong>Phone Number:</strong>
+				<strong class="strong1">Phone Number:</strong>
 				<input type="number" name="mainphone" id="mainPhone" value="" placeholder="phone number" class="phone"><br>
-				<strong>Alternate Phone Number:</strong>
+				<strong class="strong1">Alternate Number:</strong>
 				<input type="number" name="phonenumber" id="phoneNumber" value="" placeholder="alternate phone number" class="alternatephone">
 			</div>
 
-			<input class="button" type="submit" name="submit" value="Submit">
+			<input class="btn btn-warning submit" type="submit" name="submit" value="Submit">
 		</div>	
 	</form>
 

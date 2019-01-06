@@ -14,7 +14,7 @@ input{
 	outline: 0;
 }
 
-#mainContener{
+/*#mainContener{
 	width: 100%;
 }
 
@@ -41,13 +41,13 @@ input{
 	font-weight: 500;
 	padding: 40px 0 60px 0;
 	text-align: center;
-}
+}*/
 
 
 /**********************************************************************************/
 	/*Personal Details form css*/
 
-.personal{
+/*.personal{
 	width: 33%;
 	float: left;
 	padding-bottom: 120px;
@@ -173,12 +173,12 @@ input{
 	padding-bottom: 2px;
 	margin: 20px 20px 0 70px;
 }
-
+*/
 
 /**************************************************************************************/
   /*Professional Details form css*/
 
-.professional{
+/*.professional{
 	width: 33%;
 	float: left;
 	padding-bottom: 180px;
@@ -251,7 +251,6 @@ input{
 	padding-bottom: 2px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	/*margin-left: 10px;*/
 }
 
 .companyname{
@@ -282,12 +281,12 @@ input{
 	margin-top: 20px;
 	margin-left: 20px;
 }
-
+*/
 
 /*************************************************************************************/
 	/*Family Details form css*/
 	
-.family{
+/*.family{
 	width: 33%;
 	float: left;
 	padding-bottom: 30px; 
@@ -389,15 +388,14 @@ input{
 	padding-left: 10px;
 	padding-top: 2px;
 	padding-bottom: 2px;
-	/*margin-left: 10px;*/
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-
+*/
 
 /***********************************************************************************/
 
-.button{
+/*.button{
 	margin: 40px 550px 50px 600px; 
 	width: 100px;
 	padding:10px 0;
@@ -410,7 +408,7 @@ input{
 	font-weight: 700;  
 	cursor: pointer;
 }
-
+*/
 /***************************************************************************************/
 /*get_data.php css*/
 
@@ -485,7 +483,6 @@ input{
 }
 
 .typejob{
-	/*margin-left: 20px;*/
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding-left: 10px;
@@ -529,7 +526,6 @@ input{
 }
 
 .buttontwo{
-	/*margin: 40px 550px 50px 0; */
 	width: 150px;
 	padding:10px 0;
 	border: 0;
@@ -545,63 +541,924 @@ input{
 /**************************************************************************************/
 
 @media only screen and (max-width: 360px){
+	.header >h1{
+		text-align: center;
+		font-size: 25px;
+		padding: 20px 0;
+		color: #FF0000;
+	}
 
-.header h1{
-	text-align: center;
-}	
+	#mainform{
+		width: 100%;
+		border: 0.01rem solid black;
+		margin: 20px 30px;
+		box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),
+				 	0 1px 10px 0 rgba(0,0,0,0.12), 
+				 	0 2px 4px -1px rgba(0,0,0,0.3);
+		box-sizing: border-box;
+		background-color: white;
+		padding-left: 20px;
+		padding-right: 10px;
+		padding-bottom: 40px;
+	}
 
-.mainform{
-/*	border: 0;
-	margin: 20px 100px 40px 100px;
-	box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),
-			 	0 1px 10px 0 rgba(0,0,0,0.12), 
-			 	0 2px 4px -1px rgba(0,0,0,0.3);
-	box-sizing: border-box;*/
-	/*background-color: rgba(255, 255, 0, .2);*/
-}	
+	#mainform h3{
+		text-align: center;
+		font-size: 20px;
+		padding: 10px 0;
+		color: #FF0000;
+	}
 
-.personal{
-	width: 100%;
-	margin-bottom: 20px;
-	/*background-color: white;*/
-}
+	.personal{
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
 
-.professional{
-	width: 100%;
-	margin-bottom: 20px;
-	/*background-color: white;*/
-}
+	.strong1{
+		font-size: .8rem;
+		padding-right: 10px;
+	}
 
-.family{
-	width: 100%;
-	/*background-color: white;*/
-	/*border-top: 1px solid black*/
-}
+	.profilefor{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 25px;
+		margin-bottom: 10px;
+	}
 
-.button{
-	/*margin: 40px 550px 50px 600px; */
-	/*float: left;*/
-	width: 100px;
-	padding:10px 0;
-	border: 0;
-	text-align: center;
-	border-radius: 5px;
-	background-color: #008000;
-	color: white;
-	font-size: 1rem;
-	font-weight: 700;  
-	cursor: pointer;
-}
+	.inputone{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 14px;
+		margin-bottom: 10px;
+	}
+
+	.gender{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 45px;
+		margin-bottom: 10px;
+	}
+
+	.day{
+		width: 45px;
+		height: 20px;
+		font-size: .6rem;
+		margin-left: 2px;
+		margin-bottom: 10px;
+	}
+
+	.month{
+		width: 45px;
+		height: 20px;
+		font-size: .6rem;
+		margin-bottom: 10px;
+	}
+
+	.year{
+		width: 45px;
+		height: 20px;
+		font-size: .6rem;
+		margin-bottom: 10px;
+	}
+
+	.commu{
+		width: 120px;
+		height: 20px;
+		font-size: .6rem;
+		margin-left: 14px;
+		margin-bottom: 10px;
+	}
+
+	.gotra{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 50px;
+		margin-bottom: 10px;
+	}
+
+	.Manglik{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 35px;
+		margin-bottom: 10px;
+	}
+
+	.height{
+		width: 40px;
+		height: 20px;
+		margin-left: 50px;
+		font-size: .8rem;
+		margin-bottom: 10;
+	}
+
+	.heightone{
+		width: 40px;
+		height: 20px;
+		margin-left: 5px;
+		font-size: .8rem
+		margin-bottom: 10;
+	}
+
+	.label{
+		font-size: .8rem;
+		padding-left: 3px;
+	}
+
+	.tone{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 45px;
+		margin-bottom: 10px;	
+	}
+
+	.professional{
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+
+	.stateone{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 30px;
+		margin-bottom: 10px;
+	}
+
+	.textbox{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 70px;
+		margin-bottom: 10px;
+	}
+
+	.textboxone{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 50px;
+		margin-bottom: 10px;
+	}
+
+	.degree{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 20px;
+		margin-bottom: 10px;
+	}
+
+	.degreedetails{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+
+	.jobtype{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 8px;
+		margin-bottom: 10px;
+	}
+
+	.companyname{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+
+	.pojison{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 35px;
+		margin-bottom: 10px;
+	}
+
+	.income{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 35px;
+		margin-bottom: 10px;
+	}
+
+	.prentname{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 40px;
+		margin-bottom: 10px;
+	}
+
+	.fatherjob{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 5px;
+		margin-bottom: 10px;
+	}
+
+	.mname{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 5px;
+		margin-bottom: 10px;
+	}
+
+	.familymeber{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 70px;
+		margin-bottom: 10px;
+	}
+
+	.sister{
+		margin-left: 80px;
+	}
+
+	.address{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 75px;
+		margin-bottom: 10px;
+	}
+
+	.city{
+		margin-left: 100px;
+	}
+
+	.statetwo{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 110px;
+		margin-bottom: 10px;
+	}
+
+	.phone{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 35px;
+		margin-bottom: 10px;
+	}
+
+	.alternatephone{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 15px;
+		margin-bottom: 10px;
+	}
+
+	.submit{
+		color: white;
+		margin-top: 20px;
+		margin-left: 100px;
+	}
 
 }
 
 /**************************************************************************************/
-@media only screen and (min-width: 360px){
+@media only screen and (min-width: 361px){
+	.header >h1{
+		text-align: center;
+		font-size: 25px;
+		padding: 20px 0;
+		color: #FF0000;
+	}
+
+	#mainform{
+		width: 100%;
+		border: 0.01rem solid black;
+		margin: 20px 30px;
+		box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),
+				 	0 1px 10px 0 rgba(0,0,0,0.12), 
+				 	0 2px 4px -1px rgba(0,0,0,0.3);
+		box-sizing: border-box;
+		background-color: white;
+		padding-left: 20px;
+		padding-right: 10px;
+		padding-bottom: 40px;
+	}
+
+	#mainform h3{
+		text-align: center;
+		font-size: 20px;
+		padding: 10px 0;
+		color: #FF0000;
+	}
+
+	.personal{
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+
+	.strong1{
+		font-size: .8rem;
+		padding-right: 10px;
+	}
+
+	.profilefor{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 25px;
+		margin-bottom: 10px;
+	}
+
+	.inputone{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 14px;
+		margin-bottom: 10px;
+	}
+
+	.gender{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 45px;
+		margin-bottom: 10px;
+	}
+
+	.day{
+		width: 45px;
+		height: 20px;
+		font-size: .6rem;
+		margin-left: 2px;
+		margin-bottom: 10px;
+	}
+
+	.month{
+		width: 45px;
+		height: 20px;
+		font-size: .6rem;
+		margin-bottom: 10px;
+	}
+
+	.year{
+		width: 45px;
+		height: 20px;
+		font-size: .6rem;
+		margin-bottom: 10px;
+	}
+
+	.commu{
+		width: 120px;
+		height: 20px;
+		font-size: .6rem;
+		margin-left: 14px;
+		margin-bottom: 10px;
+	}
+
+	.gotra{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 50px;
+		margin-bottom: 10px;
+	}
+
+	.Manglik{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 35px;
+		margin-bottom: 10px;
+	}
+
+	.height{
+		width: 40px;
+		height: 20px;
+		margin-left: 50px;
+		font-size: .8rem;
+		margin-bottom: 10;
+	}
+
+	.heightone{
+		width: 40px;
+		height: 20px;
+		margin-left: 5px;
+		font-size: .8rem
+		margin-bottom: 10;
+	}
+
+	.label{
+		font-size: .8rem;
+		padding-left: 3px;
+	}
+
+	.tone{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 45px;
+		margin-bottom: 10px;	
+	}
+
+	.professional{
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+
+	.stateone{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 30px;
+		margin-bottom: 10px;
+	}
+
+	.textbox{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 70px;
+		margin-bottom: 10px;
+	}
+
+	.textboxone{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 50px;
+		margin-bottom: 10px;
+	}
+
+	.degree{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 20px;
+		margin-bottom: 10px;
+	}
+
+	.degreedetails{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+
+	.jobtype{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 8px;
+		margin-bottom: 10px;
+	}
+
+	.companyname{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+
+	.pojison{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 35px;
+		margin-bottom: 10px;
+	}
+
+	.income{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 35px;
+		margin-bottom: 10px;
+	}
+
+	.family{
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+
+	.prentname{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 40px;
+		margin-bottom: 10px;
+	}
+
+	.fatherjob{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 5px;
+		margin-bottom: 10px;
+	}
+
+	.mname{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 5px;
+		margin-bottom: 10px;
+	}
+
+	.familymeber{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 70px;
+		margin-bottom: 10px;
+	}
+
+	.sister{
+		margin-left: 80px;
+	}
+
+	.address{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 75px;
+		margin-bottom: 10px;
+	}
+
+	.city{
+		margin-left: 100px;
+	}
+
+	.statetwo{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 110px;
+		margin-bottom: 10px;
+	}
+
+	.phone{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 35px;
+		margin-bottom: 10px;
+	}
+
+	.alternatephone{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 15px;
+		margin-bottom: 10px;
+	}
+
+	.submit{
+		color: white;
+		margin-top: 20px;
+		margin-left: 100px;
+	}
 	
 }
 
 /*******************************************************************************/
 @media only screen and (min-width: 768px){
+
+	#mainform{
+		width: 100%;
+		border: 0.01rem solid black;
+		margin: 20px 30px;
+		box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),
+				 	0 1px 10px 0 rgba(0,0,0,0.12), 
+				 	0 2px 4px -1px rgba(0,0,0,0.3);
+		box-sizing: border-box;
+		background-color: white;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 40px;
+	}
+
+	.personal{
+		float: left;	
+		margin-right: 80px;	
+	}
+
+	.professional{
+		float: left;
+		margin-left: 80px;
+	}
+
+	.family{
+		margin-top: 550px;
+		text-align: center;
+	}
+
+	.personal{
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+
+	.strong1{
+		font-size: .8rem;
+		padding-right: 10px;
+	}
+
+	.profilefor{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 40px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.inputone{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 21px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.gender{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 65px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.day{
+		width: 45px;
+		height: 20px;
+		font-size: .6rem;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.month{
+		width: 45px;
+		height: 20px;
+		font-size: .6rem;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.year{
+		width: 45px;
+		height: 20px;
+		font-size: .6rem;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.commu{
+		width: 120px;
+		height: 20px;
+		font-size: .6rem;
+		margin-left: 14px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.gotra{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 50px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.Manglik{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 35px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.height{
+		width: 40px;
+		height: 20px;
+		margin-left: 50px;
+		font-size: .8rem;
+		margin-bottom: 10;
+		padding: 2px;
+	}
+
+	.heightone{
+		width: 40px;
+		height: 20px;
+		margin-left: 5px;
+		font-size: .8rem
+		margin-bottom: 10;
+		padding: 2px;
+	}
+
+	.label{
+		font-size: .8rem;
+		padding-left: 3px;
+	}
+
+	.tone{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 45px;
+		margin-bottom: 10px;
+		padding: 2px;	
+	}
+
+	.professional{
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+
+	.stateone{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 30px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.textbox{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 70px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.textboxone{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 50px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.degree{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.degreedetails{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.jobtype{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 8px;
+		margin-bottom: 10px;padding: 2px;
+	}
+
+	.companyname{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 10px;
+		margin-bottom: 10px;padding: 2px;
+	}
+
+	.pojison{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 35px;
+		margin-bottom: 10px;padding: 2px;
+	}
+
+	.income{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 35px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.family{
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+
+	.prentname{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 40px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.fatherjob{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 5px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.mname{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 5px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.familymeber{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 70px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.sister{
+		margin-left: 80px;
+	}
+
+	.address{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 75px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.city{
+		margin-left: 100px;
+	}
+
+	.statetwo{
+		width: 85px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 110px;
+		margin-bottom: 10px;
+	}
+
+	.phone{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 35px;
+		margin-bottom: 10px;
+	}
+
+	.alternatephone{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 15px;
+		margin-bottom: 10px;
+	}
+
+	.submit{
+		color: white;
+		margin-top: 20px;
+		margin-left: 100px;
+	}
 
 }
 
