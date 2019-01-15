@@ -149,14 +149,14 @@ input{
 	.header >h1{
 		text-align: center;
 		font-size: 25px;
-		padding: 20px 0;
+		padding: 20px 0 10px 0;
 		color: #FF0000;
 	}
 
 	#mainform{
 		width: 100%;
 		border: 0.01rem solid black;
-		margin: 20px 30px;
+		margin: 10px 10px 20px 10px;
 		box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),
 				 	0 1px 10px 0 rgba(0,0,0,0.12), 
 				 	0 2px 4px -1px rgba(0,0,0,0.3);
@@ -188,7 +188,7 @@ input{
 		width: 85px;
 		height: 20px;
 		font-size: .8rem;
-		margin-left: 25px;
+		margin-left: 16px;
 		margin-bottom: 10px;
 	}
 
@@ -201,11 +201,15 @@ input{
 		padding: 5px 5px;
 	}
 
+	.last{
+		margin-left: 15px;
+	}
+
 	.gender{
 		width: 85px;
 		height: 20px;
 		font-size: .8rem;
-		margin-left: 45px;
+		margin-left: 35px;
 		margin-bottom: 10px;
 	}
 
@@ -213,12 +217,12 @@ input{
 		width: 45px;
 		height: 20px;
 		font-size: .6rem;
-		margin-left: 2px;
+		margin-left: 1.5px;
 		margin-bottom: 10px;
 	}
 
 	.month{
-		width: 45px;
+		width: 50px;
 		height: 20px;
 		font-size: .6rem;
 		margin-bottom: 10px;
@@ -235,7 +239,7 @@ input{
 		width: 120px;
 		height: 20px;
 		font-size: .8rem;
-		margin-left: 14px;
+		margin-left: 10px;
 		margin-bottom: 10px;
 		padding: 5px;
 	}
@@ -244,7 +248,7 @@ input{
 		width: 120px;
 		height: 20px;
 		font-size: .8rem;
-		margin-left: 50px;
+		margin-left: 47px;
 		margin-bottom: 10px;
 		padding: 5px;
 	}
@@ -253,15 +257,15 @@ input{
 		width: 85px;
 		height: 20px;
 		font-size: .8rem;
-		margin-left: 35px;
+		margin-left: 19px;
 		margin-bottom: 10px;
 	}
 
 	.height{
 		width: 40px;
 		height: 20px;
-		margin-left: 50px;
 		font-size: .8rem;
+		margin-left: 40px;
 		margin-bottom: 10;
 	}
 
@@ -274,7 +278,7 @@ input{
 	}
 
 	.label{
-		font-size: .8rem;
+		font-size: .7rem;
 		padding-left: 3px;
 	}
 
@@ -282,7 +286,7 @@ input{
 		width: 85px;
 		height: 20px;
 		font-size: .8rem;
-		margin-left: 45px;
+		margin-left: 20px;
 		margin-bottom: 10px;	
 	}
 
