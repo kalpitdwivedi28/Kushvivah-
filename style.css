@@ -154,7 +154,7 @@ input{
 	}
 
 	#mainform{
-		width: 100%;
+		/*width: 100%;*/
 		border: 0.01rem solid black;
 		margin: 10px 10px 20px 10px;
 		box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),
@@ -266,7 +266,7 @@ input{
 		height: 20px;
 		font-size: .8rem;
 		margin-left: 76px;
-		margin-bottom: 10;
+		margin-bottom: 10px;
 	}
 
 	.heightone{
@@ -274,7 +274,7 @@ input{
 		height: 20px;
 		margin-left: 5px;
 		font-size: .8rem
-		margin-bottom: 10;
+		margin-bottom: 10px;
 	}
 
 	.label{
@@ -581,7 +581,7 @@ input{
 		height: 20px;
 		font-size: .8rem;
 		margin-left: 76px;
-		margin-bottom: 10;
+		margin-bottom: 10px;
 	}
 
 	.heightone{
@@ -589,7 +589,7 @@ input{
 		height: 20px;
 		margin-left: 5px;
 		font-size: .8rem
-		margin-bottom: 10;
+		margin-bottom: 10px;
 	}
 
 	.label{
@@ -786,7 +786,7 @@ input{
 	}
 
 	#mainform{
-		width: 100%;
+		/*width: 100%;*/
 		border: 0.01rem solid black;
 		margin: 20px 10px;
 		box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),
@@ -800,8 +800,7 @@ input{
 	}
 
 	.personal{
-		float: left;	
-		margin-right: 40px;
+		float: left;
 		padding-bottom: 20px;
 		margin-bottom: 20px;	
 	}
@@ -810,36 +809,6 @@ input{
 		text-align: center;
 		font-size: 20px;
 		font-weight: 700;
-		color: #FF0000;
-	}
-
-	.professional{
-		float: left;
-		margin-left: 80px;
-		padding-bottom: 20px;
-		margin-bottom: 20px;
-	}
-
-	.professional h3{
-		text-align: center;
-		font-size: 20px;
-		font-weight: 700;
-		padding: 40px 0;
-		color: #FF0000;
-	}
-
-	.family{
-		margin-top: 550px;
-		text-align: left;
-		padding-bottom: 20px;
-		margin-bottom: 20px;
-	}
-
-	.family h3{
-		/*text-align: center;*/
-		font-size: 20px;
-		font-weight: 700;
-		padding: 40px 0 20px 0;
 		color: #FF0000;
 	}
 
@@ -936,22 +905,22 @@ input{
 		height: 20px;
 		margin-left: 68px;
 		font-size: .8rem;
-		margin-bottom: 10;
+		margin-bottom: 10px;
 		padding: 2px;
 	}
 
 	.heightone{
 		width: 40px;
 		height: 20px;
-		/*margin-left: 5px;*/
+		margin-left: 5px;
 		font-size: .8rem
-		/*margin-bottom: 10;*/
+		margin-bottom: 10px;
 		padding: 2px;
 	}
 
 	.label{
 		font-size: .7rem;
-		/*padding-left: 3px;*/
+		padding-left: 3px;
 	}
 
 	.tone{
@@ -963,11 +932,26 @@ input{
 		padding: 2px;	
 	}
 
+	.professional{
+		float: right;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		margin-right: 40px;
+	}
+
+	.professional h3{
+		text-align: center;
+		font-size: 20px;
+		font-weight: 700;
+		padding: 40px 0;
+		color: #FF0000;
+	}
+
 	.stateone{
 		width: 85px;
 		height: 20px;
 		font-size: .8rem;
-		margin-left: 30px;
+		margin-left: 38px;
 		margin-bottom: 10px;
 		padding: 2px;
 	}
@@ -976,7 +960,7 @@ input{
 		width: 120px;
 		height: 20px;
 		font-size: .8rem;
-		margin-left: 70px;
+		margin-left: 109px;
 		margin-bottom: 10px;
 		padding: 2px;
 	}
@@ -985,7 +969,7 @@ input{
 		width: 120px;
 		height: 20px;
 		font-size: .8rem;
-		margin-left: 50px;
+		margin-left: 87px;
 		margin-bottom: 10px;
 		padding: 2px;
 	}
@@ -994,7 +978,7 @@ input{
 		width: 85px;
 		height: 20px;
 		font-size: .8rem;
-		margin-left: 20px;
+		margin-left: 26px;
 		margin-bottom: 10px;
 		padding: 2px;
 	}
@@ -1003,7 +987,7 @@ input{
 		width: 120px;
 		height: 20px;
 		font-size: .8rem;
-		margin-left: 10px;
+		margin-left: 38px;
 		margin-bottom: 10px;
 		padding: 2px;
 	}
@@ -1020,7 +1004,7 @@ input{
 		width: 120px;
 		height: 20px;
 		font-size: .8rem;
-		margin-left: 10px;
+		margin-left: 31px;
 		margin-bottom: 10px;padding: 2px;
 	}
 
@@ -1028,7 +1012,7 @@ input{
 		width: 120px;
 		height: 20px;
 		font-size: .8rem;
-		margin-left: 35px;
+		margin-left: 60px;
 		margin-bottom: 10px;padding: 2px;
 	}
 
@@ -1036,52 +1020,28 @@ input{
 		width: 85px;
 		height: 20px;
 		font-size: .8rem;
-		margin-left: 35px;
+		margin-left: 38px;
 		margin-bottom: 10px;
 		padding: 2px;
+	}
+
+	.family{
+		margin-top: 450px;
+		margin-left: 250px;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+
+	.family h3{
+		text-align-last: start;
+    	margin-left: 75px;
+		font-size: 20px;
+		font-weight: 700;
+		padding: 40px 0 20px 0;
+		color: #FF0000;
 	}
 
 	.prentname{
-		width: 120px;
-		height: 20px;
-		font-size: .8rem;
-		margin-left: 40px;
-		margin-bottom: 10px;
-		padding: 2px;
-	}
-
-	.fatherjob{
-		width: 120px;
-		height: 20px;
-		font-size: .8rem;
-		margin-left: 5px;
-		margin-bottom: 10px;
-		padding: 2px;
-	}
-
-	.mname{
-		width: 120px;
-		height: 20px;
-		font-size: .8rem;
-		margin-left: 5px;
-		margin-bottom: 10px;
-		padding: 2px;
-	}
-
-	.familymeber{
-		width: 120px;
-		height: 20px;
-		font-size: .8rem;
-		margin-left: 70px;
-		margin-bottom: 10px;
-		padding: 2px;
-	}
-
-	.sister{
-		margin-left: 80px;
-	}
-
-	.address{
 		width: 120px;
 		height: 20px;
 		font-size: .8rem;
@@ -1090,15 +1050,59 @@ input{
 		padding: 2px;
 	}
 
+	.mother{
+		margin-left: 71px;
+	}
+
+	.fatherjob{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 35px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.mname{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 31px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.familymeber{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 102px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
+	.sister{
+		margin-left: 114px;
+	}
+
+	.address{
+		width: 120px;
+		height: 20px;
+		font-size: .8rem;
+		margin-left: 106px;
+		margin-bottom: 10px;
+		padding: 2px;
+	}
+
 	.city{
-		margin-left: 100px;
+		margin-left: 135px;
 	}
 
 	.statetwo{
 		width: 85px;
 		height: 20px;
 		font-size: .8rem;
-		margin-left: 110px;
+		margin-left: 126px;
 		margin-bottom: 10px;
 	}
 
@@ -1106,7 +1110,7 @@ input{
 		width: 120px;
 		height: 20px;
 		font-size: .8rem;
-		margin-left: 35px;
+		margin-left: 59px;
 		margin-bottom: 10px;
 	}
 
@@ -1114,14 +1118,13 @@ input{
 		width: 120px;
 		height: 20px;
 		font-size: .8rem;
-		margin-left: 15px;
+		margin-left: 40px;
 		margin-bottom: 10px;
 	}
 
 	.submit{
 		color: white;
-		margin-top: 20px;
-		margin-left: 100px;
+		margin-left: 330px;
 	}
 
 }
