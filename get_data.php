@@ -55,7 +55,7 @@
 <section id="subContener">
 	<div class="formcontener">
 
-	<form action="confromform.php" method="POST">
+	<form action="#" method="POST">
 		<div id="mainform">
 			<div class="personal">	
 				<h3>Personal Details</h3>
